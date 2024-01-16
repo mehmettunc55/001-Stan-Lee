@@ -13,14 +13,16 @@ body{
 }
 
 #container{
-    margin: 50px;
+    margin:200px auto;
     background-color: rgb(30, 32, 30);
     border-radius: 50px;
+    height: 1030px;
+    width: 1500px;
 }
 
 #baslik{
 text-align: center;
-font-size: 10rem;
+font-size: 3rem;
 font-weight: 900;
 font-family: 'Londrina Solid', sans-serif;
 margin-bottom: 80px;
@@ -31,7 +33,7 @@ margin-bottom: 80px;
 }
 img{
     width: 25%;
-    height: 27%;
+    height: 50%;
     border-radius: 50px; 
     box-shadow: 5px 2px 450px 5px rgb(236, 8, 8)
 }
@@ -44,12 +46,12 @@ img{
 }
 
 #img_yazi{
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
 }
 
 #ana_metin{
-    font-size: 40px;
+    font-size: 20px;
     text-align: justify;
     margin: 50px 150px;
 }
@@ -67,7 +69,7 @@ ul{
 #son{
     text-align: center;
    
-    font-size: 45px;
+    font-size: 20px;
 
 }
 
@@ -76,8 +78,9 @@ a{
     border: 1px solid yellow;
     background-color:black ;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
+   
 }
 
 a:hover{
