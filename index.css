@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23000000" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+    height: 100vh;
+    
+}
+
+#container{
+    margin: 50px;
+    background-color: rgb(30, 32, 30);
+    border-radius: 50px;
+}
+
+#baslik{
+text-align: center;
+font-size: 10rem;
+font-weight: 900;
+font-family: 'Londrina Solid', sans-serif;
+margin-bottom: 80px;
+}
+.martin{
+    color: red;
+    font-family: 'Oleo Script', system-ui;
+}
+img{
+    width: 25%;
+    height: 27%;
+    border-radius: 50px; 
+    box-shadow: 5px 2px 450px 5px rgb(236, 8, 8)
+}
+
+
+#img{
+ text-align: center;
+ 
+
+}
+
+#img_yazi{
+    font-size: 20px;
+    text-align: center;
+}
+
+#ana_metin{
+    font-size: 40px;
+    text-align: justify;
+    margin: 50px 150px;
+}
+
+#ara_baslik{
+    color: red;
+    font-weight: 600;
+    font-family: fantasy;
+    text-indent: ;
+}
+ul{
+    padding: 30px;
+}
+
+#son{
+    text-align: center;
+   
+    font-size: 45px;
+
+}
+
+a{
+    padding: 10px;
+    border: 1px solid yellow;
+    background-color:black ;
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+}
+
+a:hover{
+    color: red;
+    background-color: rgb(30, 32, 30);;
+}
